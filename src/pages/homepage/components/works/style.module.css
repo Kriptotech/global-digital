@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 40px 5%;
+    gap: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.container .item {
+    width: 350px;
+    flex-shrink: 0;
+}
+.container .item img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+.container .item h1 {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+.container .item p {
+    color: #666;
+    line-height: 30px;
+}
